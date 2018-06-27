@@ -12,7 +12,6 @@
     var tolerance = options.tolerance || 0.00000001;
     var epsilon = options.epsilon || 0.0000000000001;
     var maxIterations = options.maxIterations || 20;
-    var haveWeFoundSolution = false; 
     var result;
    
     for (var i = 0; i < maxIterations; ++i) {
